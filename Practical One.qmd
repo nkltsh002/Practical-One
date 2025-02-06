@@ -67,3 +67,12 @@ beta_hat <- solve(t(x_matrix)%*%(x_matrix))%*%t(x_matrix)%*%y_matrix
 beta_hat
 
 ```
+
+## Question 4:
+
+Checking the results from questions 3
+
+```{r}
+reg_model <- lm(dist~speed, data = cars)
+summary(reg_model)
+```
