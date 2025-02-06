@@ -2,10 +2,11 @@
 title: "Practical One"
 ---
 
-## Quarto
+## Setting Up:
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+Initialising my project (setting up Git, GitHub, project directories and a README)
 
 ```{r}
-1 + 1
+library(quarto)
+library(projrsimple)
 ```
