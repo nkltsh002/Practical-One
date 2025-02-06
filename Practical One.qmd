@@ -54,3 +54,16 @@ temp_min
 temp_max <- max(airquality_with_missingvalues$Temp)
 temp_max
 ```
+
+## Question 3:
+
+Estimating the parameters for linear regression model (distance\~speed) from the cars data set
+
+```{r}
+y_matrix <- cars$dist
+x_matrix <- cbind(1,cars$speed)
+
+beta_hat <- solve(t(x_matrix)%*%(x_matrix))%*%t(x_matrix)%*%y_matrix
+beta_hat
+
+```
