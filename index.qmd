@@ -1,0 +1,36 @@
+---
+title: "index"
+format: html
+---
+
+## Instructions
+
+The answers to the following questions should be placed into their own QMD files in a Quarto project on GitHub.
+
+## Contents
+
+-   **Question 1: Handling Missing Values**
+
+    -   Find all rows in the `airquality` dataset that have missing values.
+
+    -   Filename: `question1.qmd`
+
+-   **Question 2: Descriptive Statistics**
+
+    -   Compute mean, standard deviation, minimum, and maximum for temperature and ozone levels in `airquality`.
+
+    -   Filename: `question2.qmd`
+
+-   **Question 3:** **Matrix Calculations**
+
+    -   Calculating the beta estimates for a linear regression fitted with the `cars` data set
+
+    -   Filename: `question4.qmd`
+
+-   **Question 4: Linear Regression**
+
+    -   Fit a simple linear regression model to the `cars` data set
+
+    -   Compare the estimates with those obtained from question 3.
+
+    -   Filename: `question4.qmd`

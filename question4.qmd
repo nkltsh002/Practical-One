@@ -1,0 +1,11 @@
+---
+title: "Question 4"
+format: html
+---
+
+Checking the results from questions 3
+
+```{r}
+reg_model <- lm(dist~speed, data = cars)
+summary(reg_model)
+```

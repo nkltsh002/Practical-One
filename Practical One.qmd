@@ -21,11 +21,7 @@ class(airquality)
 airquality_with_missingvalues <- airquality[
   is.na(airquality$Ozone) | is.na(airquality$Solar.R) | 
     is.na(airquality$Wind) | is.na(airquality$Temp) | 
-    is.na(airquality$Month) | is.na(airquality$Day),
-
-                                         ]
-
-View(airquality_with_missingvalues)
+    is.na(airquality$Month) | is.na(airquality$Day),]
 
 write.csv(airquality_with_missingvalues, file = "_raw_data/dataset.csv") #saving our manipulated data 
 

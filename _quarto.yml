@@ -1,5 +1,29 @@
 project:
   title: "Practical One"
+  type: book
+  output-dir: _output
+  
+book:
+  title: Project One
+  sidebar:
+    border: true
+    background: light
+    position: right
+  navbar:
+    search: true
+    background: light
+  chapters:
+  - index.qmd
+  - question1.qmd
+  - question2.qmd
+  - question3.qmd
+  - question4.qmd
+  
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 5
 
 
 
